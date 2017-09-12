@@ -1,11 +1,10 @@
 <?php
 // This sample uses the Apache HTTP client from HTTP Components (http://hc.apache.org/httpcomponents-client-ga/)
-/*
 require_once 'HTTP/Request2.php';
 
 $request = new Http_Request2('https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Accounts');
 $url = $request->getUrl();
-
+var_dump($url);
 $headers = array(
     // Request headers
     'Ocp-Apim-Subscription-Key' => 'fd93f1039fc744edbc56411f896e8461',
@@ -33,6 +32,5 @@ catch (HttpException $ex)
 {
     echo $ex;
 }
-*/
-var_dump("aa");
+
 ?>

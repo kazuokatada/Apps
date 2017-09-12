@@ -7,7 +7,7 @@ $url = $request->getUrl();
 var_dump($url);
 $headers = array(
     // Request headers
-    'Ocp-Apim-Subscription-Key' => 'fd93f1039fc744edbc56411f896e8461',
+    'Ocp-Apim-Subscription-Key' => '61e53c3f9db04c128b72f0625fec151a',
 );
 
 $request->setHeader($headers);
